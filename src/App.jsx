@@ -596,6 +596,11 @@ function App() {
             <img src={elittoralURL} alt="" width={'70%'} className="d-block mx-auto" />
             </div>
           </div>
+          <div className="row">
+            <div className="col-12 text-center text-secondary">
+              <p className='small'>© 2023 Digital Consulting Aguita SL CIF B44711299 Inc. All rights reserved.</p>
+            </div>
+          </div>
         </div>
       </footer>
     </>
