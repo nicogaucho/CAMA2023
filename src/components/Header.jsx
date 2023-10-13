@@ -16,33 +16,33 @@ function Header() {
         <div className="row w-75 mx-auto">
           <div className="col-6 col-md-3 mb-3">
             <div className="card text-center bg-transparent border-0">
-              <p className="text-white display-4 fw-bold">21</p>
-              <p className="small text-white">Lorem, ipsum dolor sit amet consectetur</p>
+              <p className="text-white display-4 fw-bold">3</p>
+              <p className="small text-white">Jornadas dedicadas <br />al medioambiente</p>
             </div>
           </div>
           <div className="col-6 col-md-3 mb-3">
             <div className="card text-center bg-transparent border-0">
-              <p className="text-white display-4 fw-bold">21</p>
-              <p className="small text-white">Lorem, ipsum dolor sit amet consectetur</p>
+              <p className="text-white display-4 fw-bold">12</p>
+              <p className="small text-white">Expertos de temas de <br /> medioambiente</p>
             </div>
           </div>
           <div className="col-6 col-md-3 mb-3">
             <div className="card text-center bg-transparent border-0">
-              <p className="text-white display-4 fw-bold">21</p>
-              <p className="small text-white">Lorem, ipsum dolor sit amet consectetur</p>
+              <p className="text-white display-4 fw-bold">+20</p>
+              <p className="small text-white">Horas de charlas y <br /> participación</p>
             </div>
           </div>
           <div className="col-6 col-md-3 mb-3">
             <div className="card text-center bg-transparent border-0">
-              <p className="text-white display-4 fw-bold">21</p>
-              <p className="small text-white">Lorem, ipsum dolor sit amet consectetur</p>
+              <p className="text-white display-4 fw-bold">1</p>
+              <p className="small text-white">Canal de video <br /> streaming</p>
             </div>
           </div>
         </div>
       </div>
       <div className="col-12 text-center">
-        <button className="subsScribeBtn mx-4 mb-3">INSCRIBETE</button>
-        <button className="streamingBtn mx-4 mb-3">VISUALIZA ONLINE</button>
+        <a href="" className="subsScribeBtn mx-4 mb-3 text-decoration-none d-inline-block">INSCRIBETE</a>
+        <a href="#streaming_cama_2023" className="streamingBtn mx-4 mb-3 text-decoration-none d-inline-block">VISUALIZA ONLINE</a>
       </div>
     </div>
   </header>
