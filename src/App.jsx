@@ -2,9 +2,9 @@ import ReactPlayer from 'react-player/youtube';
 import Header from "./components/Header";
 import facebookURL from "./assets/facebook.png";
 import youtubeURL from "./assets/youtube.png";
-import CarlosSamarínURL from "./assets/CarlosSamarín.jpg";
-import EduardoFranquizURL from "./assets/EduardoFranquiz.jpg";
-import FelipeSiverioURL from "./assets/FelipeSiverio.jpg";
+// import CarlosSamarínURL from "./assets/CarlosSamarín.jpg";
+// import EduardoFranquizURL from "./assets/EduardoFranquiz.jpg";
+// import FelipeSiverioURL from "./assets/FelipeSiverio.jpg";
 import camaLogoURL from "./assets/logoCAMA2023_white.png";
 import cabildoURL from "./assets/cabildo.png";
 import elittoralURL from "./assets/elittoral.png";
@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Header />
-      <nav>
+      <nav className='d-none d-md-block'>
         <div className="container-fluid h-100">
           <div className="row h-100 align-items-center">
             <div className="col-12 col-md-3">
@@ -62,7 +62,7 @@ function App() {
             </div>
             <div className="col-12 col-md-2">
               <div className="nav_btn d-block">
-                <a href="" className="streamingBtn text-decoration-none">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJKHJrBMbQeLx08NlP570pWr4T3an9LZI4JSpH8njFuwCPiw/viewform" className="streamingBtn text-decoration-none">
                   Inscribete
                 </a>
               </div>
@@ -80,10 +80,10 @@ function App() {
               <ReactPlayer url='https://www.youtube.com/watch?v=dqBki7g-qzU' className="d-block mx-auto img-fluid sobrecama_img" controls />
             </div>
             <div className="row justify-content-center">
-              <div className="col-8 my-3 text-center">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti voluptatum aliquam libero optio aliquid excepturi sapiente consequatur deleniti eos culpa, cum esse magnam fugiat cupiditate possimus dolorem blanditiis debitis suscipit.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut sit ex, ipsam veniam repellat consectetur consequatur blanditiis non fugiat asperiores odit nesciunt laborum pariatur earum, esse eum sapiente! Sed, illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla beatae libero natus, repudiandae ullam repellendus eveniet quisquam similique fugit explicabo aperiam eaque est. Veritatis, reprehenderit quaerat unde porro voluptatum debitis.</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab perspiciatis laudantium eum quis, excepturi labore deserunt, sit inventore odio reiciendis adipisci. Natus, at delectus! Enim illo molestiae a odio sint!</p>
+              <div className="col-12 col-md-8 my-3 text-center">
+                <p>¡Bienvenidos a CAMA (Conferencia Atlántica del Medio Ambiente) 2023, el evento medioambiental organizado por el Departamento de Medio Ambiente del Cabildo de Fuerteventura para promover la conciencia y la acción en pro del medio ambiente y ofrecer una plataforma única para la discusión, el aprendizaje y la colaboración en este ámbito.</p>
+                <p>Durante tres días, CAMA 2023 reunirá a expertos de temas medioambientales: desde la conservación de la biodiversidad hasta la gestión de residuos, desde el cambio climático hasta la educación ambiental, nuestros ponentes ofrecerán conocimientos valiosos y perspec</p>
+                <p>CAMA 2023 se llevará a cabo en el Parque Tecnológico de Fuerteventura. El acceso al evento es mediante previa inscripción. Además, para aquellos que no puedan asistir físicamente, ofrecemos la posibilidad de visualizar las charlas en línea a través de nuestra página web o YouTube.</p>
               </div>
             </div>
           </div>
@@ -502,42 +502,32 @@ function App() {
           <div className="row my-3 py-3">
             <div className="col-12 col-md-3 mb-5">
               <div className="card bg-transparent border-0 text-white">
-                <div className="ponente_cama_image d-block mx-auto">
-                  <img src={CarlosSamarínURL} alt={'ponente cama 2023'} className="ponente_url" />
-                </div>
                 <p className="fw-bold fs-4 mt-2 mb-0 p-0">CARLOS SAMARÍN</p>
                   <p className="fw-bold">Técnico medioambiental</p>
-                  <p className="small fw-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo dignissimos culpa sint tempora numquam vitae non! Dolorem repellendus error praesentium aspernatur eligendi, tempore molestias laudantium iste. Ex aliquid maxime adipisci.</p>
+                  <p className="small fw-light">Carlos es especializado en la evaluación, seguimiento y gestión de cuestiones relacionadas con el medio ambiente. Su labor es esencial para garantizar la conservación de los recursos naturales y la aplicación de prácticas sostenibles en diversas industrias y proyectos.</p>
               </div>  
             </div>
             <div className="col-12 col-md-3 mb-5">
               <div className="card bg-transparent border-0 text-white">
-                <div className="ponente_cama_image d-block mx-auto">
-                  <img src={EduardoFranquizURL} alt={'ponente cama 2023'} className="ponente_url" />
-                </div>
                 <p className="fw-bold fs-4 mt-2 mb-0 p-0">EDUARDO FRANQUIZ</p>
-                  <p className="fw-bold">Técnico medioambiental</p>
-                  <p className="small fw-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo dignissimos culpa sint tempora numquam vitae non! Dolorem repellendus error praesentium aspernatur eligendi, tempore molestias laudantium iste. Ex aliquid maxime adipisci.</p>
+                  <p className="fw-bold">Agricultor y consultor medioambiental</p>
+                  <p className="small fw-light">Eduardo combina su experiencia en la agricultura con
+                  un profundo conocimiento de las prácticas sostenibles y
+                  la conservación del medio ambiente. Su trabajo consiste
+                  en asesorar a otros agricultores sobre cómo cultivar de
+                  manera más ecológica y responsable, minimizando el
+                  impacto negativo en el entorno natural.</p>
               </div>  
             </div>
             <div className="col-12 col-md-3 mb-5">
               <div className="card bg-transparent border-0 text-white">
-                <div className="ponente_cama_image d-block mx-auto">
-                  <img src={FelipeSiverioURL} alt={'ponente cama 2023'} className="ponente_url" />
-                </div>
                 <p className="fw-bold fs-4 mt-2 mb-0 p-0">FELIPE SIVERIO</p>
                   <p className="fw-bold">Técnico medioambiental</p>
-                  <p className="small fw-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo dignissimos culpa sint tempora numquam vitae non! Dolorem repellendus error praesentium aspernatur eligendi, tempore molestias laudantium iste. Ex aliquid maxime adipisci.</p>
-              </div>  
-            </div>
-            <div className="col-12 col-md-3 mb-5">
-              <div className="card bg-transparent border-0 text-white">
-                <div className="ponente_cama_image d-block mx-auto">
-                  <img src={FelipeSiverioURL} alt={'ponente cama 2023'} className="ponente_url" />
-                </div>
-                <p className="fw-bold fs-4 mt-2 mb-0 p-0">CARLOS SAMARÍN</p>
-                  <p className="fw-bold">Técnico medioambiental</p>
-                  <p className="small fw-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo dignissimos culpa sint tempora numquam vitae non! Dolorem repellendus error praesentium aspernatur eligendi, tempore molestias laudantium iste. Ex aliquid maxime adipisci.</p>
+                  <p className="small fw-light">Felipe es experto dedicado al estudio y la protección de
+                  las aves y su entorno. Su labor se centra en la
+                  observación, investigación y conservación de las
+                  especies de aves, contribuyendo a la preservación de la
+                  biodiversidad y la promoción de prácticas sostenibles.</p>
               </div>  
             </div>
           </div>
@@ -550,7 +540,7 @@ function App() {
               <h2>Visualiza CAMA 2023 Online</h2>
             </div>
             <div className="col-12 my-3">
-              <ReactPlayer url='https://www.youtube.com/watch?v=Q1iR2k6ndYc' className="d-block mx-auto img-fluid sobrecama_img" controls />
+              <ReactPlayer url='https://www.youtube.com/watch?v=dqBki7g-qzU' className="d-block mx-auto img-fluid sobrecama_img" controls />
             </div>
           </div>
         </article>
@@ -564,13 +554,13 @@ function App() {
               </p>
             </div>
             <div className="col-12 col-md-8 mb-3 text-center">
-              <div className="d-flex justify-content-center">
-                <div className="circle_socials mx-5">
+              <div className="d-flex justify-content-around">
+                <div className="circle_socials">
                   <a href="https://www.facebook.com/profile.php?id=61552083251767&viewas=&show_switched_toast=false&show_switched_tooltip=false&is_tour_dismissed=false&is_tour_completed=false&show_podcast_settings=false&show_community_review_changes=false&should_open_composer=false&badge_type=NEW_MEMBER&show_community_rollback_toast=false&show_community_rollback=false&show_follower_visibility_disclosure=false&bypass_exit_warning=true">
                     <img src={facebookURL} alt="instagram" />
                   </a>
                 </div>
-                <div className="circle_socials mx-5">
+                <div className="circle_socials">
                   <a href="https://www.youtube.com/@CAMA2023">
                     <img src={youtubeURL} alt="instagram" />
                   </a>
