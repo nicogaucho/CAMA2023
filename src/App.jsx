@@ -254,13 +254,13 @@ function App() {
                 <div className="col-4">
                   <div className="time_line_program">
                     <button>9:30</button>
-                    <p className="fw-bold">inauguración</p>
+                    <p className="fw-bold">Inauguración</p>
                   </div>
                 </div>
                 <div className="col-4">
                   <div className="time_line_program">
                     <button>9:30</button>
-                    <p className="fw-bold">inauguración</p>
+                    <p className="fw-bold">Inauguración</p>
                   </div>
                 </div>
                 <div className="col-4">
@@ -395,13 +395,13 @@ function App() {
                 <div className="col-4">
                   <div className="time_line_program">
                     <button>16:30</button>
-                    <p className="fw-bold">YAYI??</p>
+                    <p className="fw-bold">Pendiente confirmación</p>
                   </div>
                 </div>
                 <div className="col-4">
                   <div className="time_line_program">
                     <button>16:30</button>
-                    <p className="fw-bold">PN GARAJONAY conservación y ocio ???</p>
+                    <p className="fw-bold">Pendiente confirmación</p>
                   </div>
                 </div>
               </div>
@@ -445,7 +445,7 @@ function App() {
                 <div className="col-4">
                   <div className="time_line_program h-100">
                     <button>18:00</button>
-                    <p className="fw-bold">ALEXIS RIVERA???</p>
+                    <p className="fw-bold">Pendiente confirmación</p>
                   </div>
                 </div>
                 <div className="col-4">
