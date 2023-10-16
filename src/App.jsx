@@ -137,7 +137,7 @@ function App() {
               </div>
               <div className="time_line_program">
                 <button>16:30</button>
-                <p className="fw-bold">pendiente confirmación</p>
+                <p className="fw-bold">Pendiente confirmación</p>
               </div>
               <div className="time_line_program">
                 <button>17:00</button>
@@ -150,7 +150,7 @@ function App() {
               </div>
               <div className="time_line_program">
                 <button>18:00</button>
-                <p className="fw-bold">pendiente confirmación</p>
+                <p className="fw-bold">Pendiente confirmación</p>
               </div>
               <div className="time_line_program">
                 <button>18:30</button>
@@ -201,7 +201,7 @@ function App() {
               </div>
               <div className="time_line_program">
                 <button>16:30</button>
-                <p className="fw-bold">PN GARAJONAY conservación y ocio ???</p>
+                <p className="fw-bold">Pendiente confirmación</p>
               </div>
               <div className="time_line_program">
                 <button>17:00</button>
