@@ -63,7 +63,7 @@ function App() {
             <div className="col-12 col-md-2">
               <div className="nav_btn d-block">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJKHJrBMbQeLx08NlP570pWr4T3an9LZI4JSpH8njFuwCPiw/viewform" className="streamingBtn text-decoration-none">
-                  Inscribete
+                  Inscríbete
                 </a>
               </div>
             </div>
@@ -119,7 +119,7 @@ function App() {
               </div>
               <div className="time_line_program">
                 <button>11:30</button>
-                <p className="fw-bold text-lowercase">CONTROL DE BIODIVERSIDAD DESDE PLATAFORMAS AEREAS TRIPULADAS REMOTAMENTE. CENTRO ISSEBC FUERTEVENTURA</p>
+                <p className="fw-bold">Control de biodiversidad desde plataformas aereas tripuladas remotamente. Centro ISSEBC fuerteventura</p>
                 <p className="fst-italic">Eduardo Pereira Gonzalez </p>
               </div>
               <div className="time_line_program">
@@ -150,7 +150,8 @@ function App() {
               </div>
               <div className="time_line_program">
                 <button>18:00</button>
-                <p className="fw-bold">Pendiente confirmación</p>
+                <p className="fw-bold">25 años de voluntariado en la conservación del espacio natural con más figuras de protección de Canarias</p>
+                <p className="fst-italic">Alexis Rivera Medina</p>
               </div>
               <div className="time_line_program">
                 <button>18:30</button>
@@ -230,7 +231,7 @@ function App() {
               <p className="fw-bold my-5 text-center">4 de noviembre</p>
               <div className="time_line_program">
                 <p className="fw-bold">
-                JORNADA DE CAMPO Morro Velosa/Pal meral de Buen Paso/palm eral Madre del Agua
+                JORNADA DE CAMPO Morro Velosa/Palmeral de Buen Paso/Palmeral Madre del Agua
                 </p>
               </div>
             </div>
@@ -265,7 +266,7 @@ function App() {
                 </div>
                 <div className="col-4">
                   <div className="time_line_program">
-                    <p className="fw-bold">JORNADA DE CAMPO Morro Velosa/Pal meral de Buen Paso/palm eral Madre del Agua</p>
+                    <p className="fw-bold">JORNADA DE CAMPO Morro Velosa/Palmeral de Buen Paso/Palmeral Madre del Agua</p>
                   </div>
                 </div>
               </div>
@@ -327,7 +328,7 @@ function App() {
                 <div className="col-4">
                   <div className="time_line_program">
                     <button>11:30</button>
-                    <p className="fw-bold">CONTROL DE BIODIVERSIDAD DESDE PLATAFORMAS AEREAS TRIPULADAS REMOTAMENTE. CENTRO ISSEBC FUERTEVENTURA</p>
+                    <p className="fw-bold">Control de biodiversidad desde plataformas aereas tripuladas remotamente. Centro ISSEBC fuerteventura</p>
                     <p className="fst-italic">Eduardo Pereira Gonzalez</p>
                   </div>
                 </div>
@@ -445,11 +446,12 @@ function App() {
                 <div className="col-4">
                   <div className="time_line_program h-100">
                     <button>18:00</button>
-                    <p className="fw-bold">Pendiente confirmación</p>
+                    <p className="fw-bold">25 años de voluntariado en la conservación del espacio natural con más figuras de protección de Canarias</p>
+                    <p className="fst-italic">Alexis Rivera Medina</p>
                   </div>
                 </div>
                 <div className="col-4">
-                  <div className="time_line_program">
+                  <div className="time_line_program h-100">
                     <button>18:00</button>
                     <p className="fw-bold">Red Canaria de Alerta Temprana de ESpecies Exóticas Invasoras</p>
                     <p className="fst-italic">Ramón Gallo Barneto </p>
@@ -492,7 +494,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section id="ponentes_cama_2023">
+      {/* <section id="ponentes_cama_2023">
         <div className="container">
           <div className="row my-3 py-3">
             <div className="col-12 text-center">
@@ -532,7 +534,7 @@ function App() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section id="streaming_cama_2023">
         <article className="container my-5 py-5">
           <div className="row">

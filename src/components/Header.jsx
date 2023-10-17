@@ -41,7 +41,7 @@ function Header() {
         </div>
       </div>
       <div className="col-12 text-center">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJKHJrBMbQeLx08NlP570pWr4T3an9LZI4JSpH8njFuwCPiw/viewform" className="subsScribeBtn mx-4 mb-3 text-decoration-none d-inline-block">INSCRIBETE</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJKHJrBMbQeLx08NlP570pWr4T3an9LZI4JSpH8njFuwCPiw/viewform" className="subsScribeBtn mx-4 mb-3 text-decoration-none d-inline-block">INSCRÍBETE</a>
         <a href="#streaming_cama_2023" className="streamingBtn mx-4 mb-3 text-decoration-none d-inline-block">VISUALIZA ONLINE</a>
       </div>
     </div>
