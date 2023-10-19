@@ -96,7 +96,7 @@ function App() {
               <p className="h2">Programa 2023</p>
             </div>
           </div>
-          <div className="row my-5 d-block d-md-none">
+          <div id='programa_mobile' className="row my-5 d-block d-md-none">
             <div id='2_nov_programa_mobile' className="col-12 col-md-4 time_line_col">
               <p className="fw-bold my-5 text-center">2 de noviembre</p>
               <div className="time_line_program">
@@ -105,7 +105,7 @@ function App() {
               </div>
               <div className="time_line_program">
                 <button>10:00</button>
-                <p className="fw-bold">Evaluación de la salud del suelo en Palmerales de la Isla de Fuerteventura</p>
+                <p className="fw-bold">La gestión del suelo y la conservación de los palmerales: un binomio indisoluble</p>
                 <p className="fst-italic">Francisco Javier Díaz Peña</p>
               </div>
               <div className="time_line_program">
@@ -137,12 +137,12 @@ function App() {
               </div>
               <div className="time_line_program">
                 <button>16:30</button>
-                <p className="fw-bold">Pendiente confirmación</p>
+                <p className="fw-bold">La educación ambiental como herramienta para la conservación de los ecosistemas naturales: Conocer para Proteger</p>
+                <p className="fst-italic">Mónica Barrera</p>
               </div>
               <div className="time_line_program">
                 <button>17:00</button>
-                <p className="fw-bold">Programa de Educación Ambiental Conocer para Proteger</p>
-                <p className="fst-italic">Mónica Barrera</p>
+                <p className="fst-italic">Yayi Martín</p>
               </div>
               <div className="time_line_program">
                 <button>17:30</button>
@@ -166,17 +166,18 @@ function App() {
               <p className="fw-bold my-5 text-center">3 de noviembre</p>
               <div className="time_line_program">
                 <button>9:30</button>
-                <p className="fw-bold">Inauguración</p>
-              </div>
-              <div className="time_line_program">
-                <button>10:00</button>
-                <p className="fw-bold">Estado de la conservación del ecosistema de Jandía: descubrimiento de una nueva especie</p>
+                <p className="fw-bold">Especies vegetales amenazadas del Macizo de Jandía, nuevas especies y su estado de conservación</p>
                 <p className="fst-italic">Marco Diaz-Bertrana Sanchez</p>
               </div>
               <div className="time_line_program">
-                <button>10:30</button>
+                <button>10:00</button>
                 <p className="fw-bold">Situación de la flora endémica de Fuerteventura: nuevos descubrimientos</p>
                 <p className="fst-italic">Stephan Scholz</p>
+              </div>
+              <div className="time_line_program">
+                <button>10:30</button>
+                <p className="fw-bold">Proyecto Ojeadores</p>
+                <p className="fst-italic">Manuel Arechavaleta Hernández</p>
               </div>
               <div className="time_line_program">
                 <button>11:00</button>
@@ -231,12 +232,12 @@ function App() {
               <p className="fw-bold my-5 text-center">4 de noviembre</p>
               <div className="time_line_program">
                 <p className="fw-bold">
-                JORNADA DE CAMPO Morro Velosa/Palmeral de Buen Paso/Palmeral Madre del Agua
+                JORNADA DE CAMPO <br /> Morro Velosa/Palmeral de Buen Paso/Palmeral Madre del Agua
                 </p>
               </div>
             </div>
           </div>
-          <div className="row my-5 d-none d-md-block">
+          <div id='programa_desktop' className="row my-5 d-none d-md-block">
             <div className="col-12">
               <div className="row">
                 <div className="col-4 text-center">
@@ -253,7 +254,7 @@ function App() {
             <div className="col-12">
               <div className="row">
                 <div className="col-4">
-                  <div className="time_line_program">
+                  <div className="time_line_program h-100">
                     <button>9:30</button>
                     <p className="fw-bold">Inauguración</p>
                   </div>
@@ -261,12 +262,13 @@ function App() {
                 <div className="col-4">
                   <div className="time_line_program">
                     <button>9:30</button>
-                    <p className="fw-bold">Inauguración</p>
+                    <p className="fw-bold">Especies vegetales amenazadas del Macizo de Jandía, nuevas especies y su estado de conservación</p>
+                    <p className="fst-italic">Marco Diaz-Bertrana Sanchez</p>
                   </div>
                 </div>
                 <div className="col-4">
-                  <div className="time_line_program">
-                    <p className="fw-bold">JORNADA DE CAMPO Morro Velosa/Palmeral de Buen Paso/Palmeral Madre del Agua</p>
+                  <div className="time_line_program h-100">
+                    <p className="fw-bold">JORNADA DE CAMPO <br /> Morro Velosa/Palmeral de Buen Paso/Palmeral Madre del Agua</p>
                   </div>
                 </div>
               </div>
@@ -276,15 +278,15 @@ function App() {
                 <div className="col-4">
                   <div className="time_line_program">
                     <button>10:00</button>
-                    <p className="fw-bold">Evaluación de la salud del suelo en Palmerales de la Isla de Fuerteventura</p>
+                    <p className="fw-bold">La gestión del suelo y la conservación de los palmerales: un binomio indisoluble</p>
                     <p className="fst-italic">Francisco Javier Díaz Peña</p>
                   </div>
                 </div>
                 <div className="col-4">
                   <div className="time_line_program">
                   <button>10:00</button>
-                    <p className="fw-bold">Estado de la conservación del ecosistema de Jandía: descubrimiento de una nueva especie</p>
-                    <p className="fst-italic">Marco Diaz-Bertrana Sanchez</p>
+                    <p className="fw-bold">Situación de la flora endémica de Fuerteventura: nuevos descubrimientos</p>
+                    <p className="fst-italic">Stephan Scholz</p>
                   </div>
                 </div>
               </div>
@@ -299,10 +301,10 @@ function App() {
                   </div>
                 </div>
                 <div className="col-4">
-                  <div className="time_line_program">
+                  <div className="time_line_program h-100">
                     <button>10:30</button>
-                    <p className="fw-bold">Situación de la flora endémica de Fuerteventura: nuevos descubrimientos</p>
-                    <p className="fst-italic">Stephan Scholz</p>
+                    <p className="fw-bold">Proyecto Ojeadores</p>
+                    <p className="fst-italic">Manuel Arechavaleta Hernández</p>
                   </div>
                 </div>
               </div>
@@ -396,11 +398,12 @@ function App() {
                 <div className="col-4">
                   <div className="time_line_program">
                     <button>16:30</button>
-                    <p className="fw-bold">Pendiente confirmación</p>
+                    <p className="fw-bold">La educación ambiental como herramienta para la conservación de los ecosistemas naturales: Conocer para Proteger</p>
+                    <p className="fst-italic">Mónica Barrera</p>
                   </div>
                 </div>
                 <div className="col-4">
-                  <div className="time_line_program">
+                  <div className="time_line_program h-100">
                     <button>16:30</button>
                     <p className="fw-bold">Pendiente confirmación</p>
                   </div>
@@ -410,10 +413,9 @@ function App() {
             <div className="col-12">
               <div className="row">
                 <div className="col-4">
-                  <div className="time_line_program">
+                  <div className="time_line_program h-100">
                     <button>17:00</button>
-                    <p className="fw-bold">Programa de Educación Ambiental Conocer para Proteger</p>
-                    <p className="fst-italic">Mónica Barrera</p>
+                    <p className="fst-italic">Yayi Martín</p>
                   </div>
                 </div>
                 <div className="col-4">
