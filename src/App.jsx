@@ -88,7 +88,7 @@ function App() {
             <div className="row justify-content-center">
               <div className="col-12 col-md-8 my-3 text-center">
                 <p>¡Bienvenidos a CAMA (Conferencia Atlántica del Medio Ambiente) 2023, el evento medioambiental organizado por el Departamento de Medio Ambiente del Cabildo de Fuerteventura para promover la conciencia y la acción en pro del medio ambiente y ofrecer una plataforma única para la discusión, el aprendizaje y la colaboración en este ámbito.</p>
-                <p>Durante tres días, CAMA 2023 reunirá a expertos de temas medioambientales: desde la conservación de la biodiversidad hasta la gestión de residuos, desde el cambio climático hasta la educación ambiental, nuestros ponentes ofrecerán conocimientos valiosos y perspec</p>
+                <p>Durante tres días, CAMA 2023 reunirá a expertos de temas medioambientales: desde la conservación de la biodiversidad hasta la gestión de residuos, desde el cambio climático hasta la educación ambiental, nuestros ponentes ofrecerán conocimientos valiosos y perspectivas enriquecedoras sobre los desafíos que enfrentamos.</p>
                 <p>CAMA 2023 se llevará a cabo en el Parque Tecnológico de Fuerteventura. El acceso al evento es mediante previa inscripción. Además, para aquellos que no puedan asistir físicamente, ofrecemos la posibilidad de visualizar las charlas en línea a través de nuestra página web o YouTube.</p>
               </div>
             </div>
