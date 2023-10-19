@@ -142,6 +142,7 @@ nav {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  object-position: top;
   border-radius: 15px;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);

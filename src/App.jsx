@@ -2,13 +2,19 @@ import ReactPlayer from 'react-player/youtube';
 import Header from "./components/Header";
 import facebookURL from "./assets/facebook.png";
 import youtubeURL from "./assets/youtube.png";
-// import CarlosSamarínURL from "./assets/CarlosSamarín.jpg";
-// import EduardoFranquizURL from "./assets/EduardoFranquiz.jpg";
-// import FelipeSiverioURL from "./assets/FelipeSiverio.jpg";
 import camaLogoURL from "./assets/logoCAMA2023_white.png";
 import cabildoURL from "./assets/cabildo.png";
 import elittoralURL from "./assets/elittoral.png";
 import medioambienteURL from "./assets/medioambiente.jpg";
+import SofiaURL from "./assets/SofíaRodríguezNúñez.jpg";
+import MarcoDiazURL from "./assets/MarcoDiaz.png";
+import NestorURL from "./assets/Nestor.png";
+import TenoURL from "./assets/Teno.jpg";
+import MariaURL from "./assets/Maria.png";
+import FranciscoJavierURL from "./assets/FranciscoJavier.png";
+import EduardoURL from "./assets/Eduardo.png";
+import FranquizURL from "./assets/Franquiz.png";
+import AlexisURL from "./assets/Alexis.png";
 
 function App() {
   return (
@@ -496,7 +502,7 @@ function App() {
           </div>
         </div>
       </section>
-      {/* <section id="ponentes_cama_2023">
+      <section id="ponentes_cama_2023">
         <div className="container">
           <div className="row my-3 py-3">
             <div className="col-12 text-center">
@@ -506,37 +512,90 @@ function App() {
           <div className="row my-3 py-3">
             <div className="col-12 col-md-3 mb-5">
               <div className="card bg-transparent border-0 text-white">
-                <p className="fw-bold fs-4 mt-2 mb-0 p-0">CARLOS SAMARÍN</p>
-                  <p className="fw-bold">Técnico medioambiental</p>
-                  <p className="small fw-light">Carlos es especializado en la evaluación, seguimiento y gestión de cuestiones relacionadas con el medio ambiente. Su labor es esencial para garantizar la conservación de los recursos naturales y la aplicación de prácticas sostenibles en diversas industrias y proyectos.</p>
+                <div className="ponente_cama_image">
+                  <img src={SofiaURL} className="ponente_url" alt="" />
+                </div>
+                <p className="fw-bold fs-4 mt-2 mb-0 p-0">Sofía Rodríguez Núñez</p>
+                  <p className="small text-white-50">Técnica del Servicio de Biodiversidad</p>
               </div>  
             </div>
             <div className="col-12 col-md-3 mb-5">
               <div className="card bg-transparent border-0 text-white">
-                <p className="fw-bold fs-4 mt-2 mb-0 p-0">EDUARDO FRANQUIZ</p>
-                  <p className="fw-bold">Agricultor y consultor medioambiental</p>
-                  <p className="small fw-light">Eduardo combina su experiencia en la agricultura con
-                  un profundo conocimiento de las prácticas sostenibles y
-                  la conservación del medio ambiente. Su trabajo consiste
-                  en asesorar a otros agricultores sobre cómo cultivar de
-                  manera más ecológica y responsable, minimizando el
-                  impacto negativo en el entorno natural.</p>
+              <div className="card bg-transparent border-0 text-white">
+                <div className="ponente_cama_image">
+                  <img src={MarcoDiazURL} className="ponente_url" alt="" />
+                </div>
+                <p className="fw-bold fs-4 mt-2 mb-0 p-0">Marco Díaz-Bertrana Sánchez</p>
+                  <p className="small text-white-50">Técnico asesor y validador de Red de Alerta</p>
+              </div> 
               </div>  
             </div>
             <div className="col-12 col-md-3 mb-5">
               <div className="card bg-transparent border-0 text-white">
-                <p className="fw-bold fs-4 mt-2 mb-0 p-0">FELIPE SIVERIO</p>
-                  <p className="fw-bold">Técnico medioambiental</p>
-                  <p className="small fw-light">Felipe es experto dedicado al estudio y la protección de
-                  las aves y su entorno. Su labor se centra en la
-                  observación, investigación y conservación de las
-                  especies de aves, contribuyendo a la preservación de la
-                  biodiversidad y la promoción de prácticas sostenibles.</p>
+              <div className="ponente_cama_image">
+                  <img src={NestorURL} className="ponente_url" alt="" />
+                </div>
+                <p className="fw-bold fs-4 mt-2 mb-0 p-0">Néstor Santiago Ávila</p>
+                <p className="small text-white-50">Ingeniero Industrial, emprendedor</p>
+              </div>  
+            </div>
+            <div className="col-12 col-md-3 mb-5">
+              <div className="card bg-transparent border-0 text-white">
+              <div className="ponente_cama_image">
+                  <img src={TenoURL} className="ponente_url" alt="" />
+                </div>
+                <p className="fw-bold fs-4 mt-2 mb-0 p-0">Teno Osorio Castañeda</p>
+                <p className="small text-white-50">Ingeniero Técnico Agrícola</p>
+              </div>  
+            </div>
+            <div className="col-12 col-md-3 mb-5">
+              <div className="card bg-transparent border-0 text-white">
+              <div className="ponente_cama_image">
+                  <img src={MariaURL} className="ponente_url" alt="" />
+                </div>
+                <p className="fw-bold fs-4 mt-2 mb-0 p-0">Maria Esther Martín González</p>
+                <p className="small text-white-50">Doctora en Biología por la Universidad de La Laguna</p>
+              </div>  
+            </div>
+            <div className="col-12 col-md-3 mb-5">
+              <div className="card bg-transparent border-0 text-white">
+              <div className="ponente_cama_image">
+                  <img src={FranciscoJavierURL} className="ponente_url" alt="" />
+                </div>
+                <p className="fw-bold fs-4 mt-2 mb-0 p-0">Francisco Javier Díaz Peña</p>
+                <p className="small text-white-50">Doctor en Ciencias Biológicas y Profesor de Edafología y Química Agrícola en la Universidad de La Laguna</p>
+              </div>  
+            </div>
+            <div className="col-12 col-md-3 mb-5">
+              <div className="card bg-transparent border-0 text-white">
+              <div className="ponente_cama_image">
+                  <img src={EduardoURL} className="ponente_url" alt="" />
+                </div>
+                <p className="fw-bold fs-4 mt-2 mb-0 p-0">Eduardo Pereira Gonzalez</p>
+                <p className="small text-white-50">Ingeniero Aeronáutico de la Universidad Politécnica de Madrid</p>
+              </div>  
+            </div>
+            <div className="col-12 col-md-3 mb-5">
+              <div className="card bg-transparent border-0 text-white">
+              <div className="ponente_cama_image">
+                  <img src={FranquizURL} className="ponente_url" alt="" />
+                </div>
+                <p className="fw-bold fs-4 mt-2 mb-0 p-0">Eduardo Franquiz Alemán</p>
+                <p className="small text-white-50">Consultor medioambiental. Técnico en medioambiente, agricultura y Ecosistemas verdes urbanos.</p>
+              </div>  
+            </div>
+            <div className="col-12 col-md-3 mb-5">
+              <div className="card bg-transparent border-0 text-white">
+              <div className="ponente_cama_image">
+                  <img src={AlexisURL} className="ponente_url" alt="" />
+                </div>
+                <p className="fw-bold fs-4 mt-2 mb-0 p-0">Juan Alexis Rivera Medina</p>
+                <p className="small text-white-50">Licenciado en Biología. Máster en Espacios Naturales Protegidos</p>
               </div>  
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
       <section id="streaming_cama_2023">
         <article className="container my-5 py-5">
           <div className="row">
