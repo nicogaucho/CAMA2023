@@ -711,12 +711,8 @@ function App() {
             <img src={medioambienteURL} alt="" width={'50%'} className="d-block mx-auto" />
             </div>
             <div className="col-6 col-md-3 mb-5">
+            <p className="patrocinado">@ 2023 Patrocinado por: </p>
             <img src={elittoralURL} alt="" width={'70%'} className="d-block mx-auto" />
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-12 text-center text-secondary">
-              <p className='small'>© 2023 Digital Consulting Aguita SL CIF B44711299 Inc. All rights reserved.</p>
             </div>
           </div>
         </div>

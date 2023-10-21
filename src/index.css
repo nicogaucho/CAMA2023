@@ -163,6 +163,20 @@ nav {
   background-color: #8AC0B0;
 }
 
+.patrocinado {
+  margin-left: 50px;
+  color: rgb(134, 134, 134);
+  font-size: 15px;
+}
+
+@media (max-width: 575.98px) { 
+  .patrocinado {
+    margin-left: 15px;
+    color: rgb(134, 134, 134);
+    font-size: 12px;
+  }
+}
+
 
 
 
