@@ -22,13 +22,13 @@ function Header() {
           </div>
           <div className="col-6 col-md-3 mb-3">
             <div className="card text-center bg-transparent border-0">
-              <p className="text-white display-4 fw-bold">12</p>
+              <p className="text-white display-4 fw-bold">15</p>
               <p className="small text-white">Expertos de temas de <br /> medioambiente</p>
             </div>
           </div>
           <div className="col-6 col-md-3 mb-3">
             <div className="card text-center bg-transparent border-0">
-              <p className="text-white display-4 fw-bold">+20</p>
+              <p className="text-white display-4 fw-bold">+25</p>
               <p className="small text-white">Horas de charlas y <br /> participación</p>
             </div>
           </div>
