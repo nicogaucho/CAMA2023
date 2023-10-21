@@ -678,7 +678,7 @@ function App() {
           <div className="row justify-content-center">
             <div className="col-12 col-md-8 mb-3 text-center">
               <p className="h1">
-              SIGUENOS EN REDES SOCIALES Y COMPARTE TUS FOTOS Y VÍDEOS
+              SÍGUENOS EN REDES SOCIALES Y COMPARTE TUS FOTOS Y VÍDEOS
               </p>
             </div>
             <div className="col-12 col-md-8 mb-3 text-center">
