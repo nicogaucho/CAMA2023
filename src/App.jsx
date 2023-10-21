@@ -116,7 +116,7 @@ function App() {
               </div>
               <div className="time_line_program">
                 <button>10:30</button>
-                <p className="fw-bold">Resultados del diagnosis de los Palmerales Naturales de Fuerteventura</p>
+                <p className="fw-bold">Resultados del diagnosis de los palmerales naturales de Fuerteventura</p>
                 <p className="fst-italic">Eduardo Franquiz Alemán</p>
               </div>
               <div className="time_line_program">
@@ -125,8 +125,8 @@ function App() {
               </div>
               <div className="time_line_program">
                 <button>11:30</button>
-                <p className="fw-bold">Control de biodiversidad desde plataformas aereas tripuladas remotamente. Centro ISSEBC fuerteventura</p>
-                <p className="fst-italic">Eduardo Pereira Gonzalez </p>
+                <p className="fw-bold">Control de biodiversidad desde plataformas aereas tripuladas remotamente. Centro ISSEBC Fuerteventura</p>
+                <p className="fst-italic">Eduardo Pereira González </p>
               </div>
               <div className="time_line_program">
                 <button>12:00</button>
@@ -144,11 +144,12 @@ function App() {
               <div className="time_line_program">
                 <button>16:30</button>
                 <p className="fw-bold">La educación ambiental como herramienta para la conservación de los ecosistemas naturales: Conocer para Proteger</p>
-                <p className="fst-italic">Mónica Barrera</p>
+                <p className="fst-italic">Mónica Barrera Barrios</p>
               </div>
               <div className="time_line_program">
                 <button>17:00</button>
-                <p className="fst-italic">Yayi Martín</p>
+                <p className="fw-bold">Trayectoria labor de la oficina de voluntariado ambiental de Tenerife</p>
+                <p className="fst-italic">Yayi Martín Díaz</p>
               </div>
               <div className="time_line_program">
                 <button>17:30</button>
@@ -165,7 +166,7 @@ function App() {
               </div>
               <div className="time_line_program">
                 <button>19:15</button>
-                <p className="fw-bold">Cierre clausura</p>
+                <p className="fw-bold">Cierre sesión</p>
               </div>
             </div>
             <div id='3_nov_programa_mobile' className="col-12 col-md-4 time_line_col">
@@ -173,16 +174,16 @@ function App() {
               <div className="time_line_program">
                 <button>9:30</button>
                 <p className="fw-bold">Especies vegetales amenazadas del Macizo de Jandía, nuevas especies y su estado de conservación</p>
-                <p className="fst-italic">Marco Diaz-Bertrana Sanchez</p>
+                <p className="fst-italic">Marco Díaz-Bertrana Sánchez</p>
               </div>
               <div className="time_line_program">
                 <button>10:00</button>
-                <p className="fw-bold">Situación de la flora endémica de Fuerteventura: nuevos descubrimientos</p>
+                <p className="fw-bold">Situación de la flora autóctona de Fuerteventura</p>
                 <p className="fst-italic">Stephan Scholz</p>
               </div>
               <div className="time_line_program">
                 <button>10:30</button>
-                <p className="fw-bold">Proyecto Ojeadores</p>
+                <p className="fw-bold">Seguimiento de hábitats y especies. Proyecto Ojeadores</p>
                 <p className="fst-italic">Manuel Arechavaleta Hernández</p>
               </div>
               <div className="time_line_program">
@@ -191,8 +192,8 @@ function App() {
               </div>
               <div className="time_line_program">
                 <button>11:30</button>
-                <p className="fw-bold text-lowercase">Proyecto Experimental de restauración de hábitats de las cumbres de Famara Lanzarote</p>
-                <p className="fst-italic">Sofia Rodriguez Nuñes</p>
+                <p className="fw-bold">Proyecto Experimental de restauración de hábitats de las cumbres de Famara, Lanzarote</p>
+                <p className="fst-italic">Sofía Rodríguez Núñes</p>
               </div>
               <div className="time_line_program">
                 <button>12:00</button>
@@ -209,7 +210,8 @@ function App() {
               </div>
               <div className="time_line_program">
                 <button>16:30</button>
-                <p className="fw-bold">Pendiente confirmación</p>
+                <p className="fw-bold">Diseño metodológico de un sistema automatizado para la delimitación de palmerales en la isla de la Gomera (Proyecto Guarapo)</p>
+                <p className="fst-italic">David Suárez Perera</p>
               </div>
               <div className="time_line_program">
                 <button>17:00</button>
@@ -222,7 +224,7 @@ function App() {
               </div>
               <div className="time_line_program">
                 <button>18:00</button>
-                <p className="fw-bold">Red Canaria de Alerta Temprana de ESpecies Exóticas Invasoras</p>
+                <p className="fw-bold">Red Canaria de Alerta Temprana de Especies Exóticas Invasoras</p>
                 <p className="fst-italic">Ramón Gallo Barneto</p>
               </div>
               <div className="time_line_program">
@@ -231,7 +233,7 @@ function App() {
               </div>
               <div className="time_line_program">
                 <button>19:15</button>
-                <p className="fw-bold">Cierre clausura</p>
+                <p className="fw-bold">Cierre sesión</p>
               </div>
             </div>
             <div id='4_nov_programa_mobile' className="col-12 col-md-4 time_line_col">
@@ -269,12 +271,13 @@ function App() {
                   <div className="time_line_program">
                     <button>9:30</button>
                     <p className="fw-bold">Especies vegetales amenazadas del Macizo de Jandía, nuevas especies y su estado de conservación</p>
-                    <p className="fst-italic">Marco Diaz-Bertrana Sanchez</p>
+                    <p className="fst-italic">Marco Díaz-Bertrana Sánchez</p>
                   </div>
                 </div>
                 <div className="col-4">
                   <div className="time_line_program h-100">
-                    <p className="fw-bold">JORNADA DE CAMPO <br /> Morro Velosa/Palmeral de Buen Paso/Palmeral Madre del Agua</p>
+                    <button>9:30 - 13:00</button>
+                    <p className="fw-bold">JORNADA DE CAMPO <br /> Visita al Palmeral de Madre del Agua</p>
                   </div>
                 </div>
               </div>
@@ -289,9 +292,9 @@ function App() {
                   </div>
                 </div>
                 <div className="col-4">
-                  <div className="time_line_program">
+                  <div className="time_line_program h-100">
                   <button>10:00</button>
-                    <p className="fw-bold">Situación de la flora endémica de Fuerteventura: nuevos descubrimientos</p>
+                    <p className="fw-bold">Situación de la flora autóctona de Fuerteventura</p>
                     <p className="fst-italic">Stephan Scholz</p>
                   </div>
                 </div>
@@ -302,14 +305,14 @@ function App() {
                 <div className="col-4">
                   <div className="time_line_program">
                     <button>10:30</button>
-                    <p className="fw-bold">Resultados del diagnosis de los Palmerales Naturales de Fuerteventura</p>
+                    <p className="fw-bold">Resultados del diagnosis de los palmerales naturales de Fuerteventura</p>
                     <p className="fst-italic">Eduardo Franquiz Alemán </p>
                   </div>
                 </div>
                 <div className="col-4">
                   <div className="time_line_program h-100">
                     <button>10:30</button>
-                    <p className="fw-bold">Proyecto Ojeadores</p>
+                    <p className="fw-bold">Seguimiento de hábitats y especies. Proyecto Ojeadores</p>
                     <p className="fst-italic">Manuel Arechavaleta Hernández</p>
                   </div>
                 </div>
@@ -336,15 +339,15 @@ function App() {
                 <div className="col-4">
                   <div className="time_line_program">
                     <button>11:30</button>
-                    <p className="fw-bold">Control de biodiversidad desde plataformas aereas tripuladas remotamente. Centro ISSEBC fuerteventura</p>
-                    <p className="fst-italic">Eduardo Pereira Gonzalez</p>
+                    <p className="fw-bold">Control de biodiversidad desde plataformas aereas tripuladas remotamente. Centro ISSEBC Fuerteventura</p>
+                    <p className="fst-italic">Eduardo Pereira González</p>
                   </div>
                 </div>
                 <div className="col-4">
                   <div className="time_line_program h-100">
                     <button>11:30</button>
                     <p className="fw-bold">Proyecto Experimental de restauración de hábitats de las cumbres de Famara, Lanzarote</p>
-                    <p className="fst-italic">Sofia Rodriguez Nuñes</p>
+                    <p className="fst-italic">Sofía Rodríguez Núñes</p>
                   </div>
                 </div>
               </div>
@@ -405,13 +408,14 @@ function App() {
                   <div className="time_line_program">
                     <button>16:30</button>
                     <p className="fw-bold">La educación ambiental como herramienta para la conservación de los ecosistemas naturales: Conocer para Proteger</p>
-                    <p className="fst-italic">Mónica Barrera</p>
+                    <p className="fst-italic">Mónica Barrera Barrios</p>
                   </div>
                 </div>
                 <div className="col-4">
                   <div className="time_line_program h-100">
                     <button>16:30</button>
-                    <p className="fw-bold">Pendiente confirmación</p>
+                    <p className="fw-bold">Diseño metodológico de un sistema automatizado para la delimitación de palmerales en la isla de la Gomera (Proyecto Guarapo)</p>
+                    <p className="fst-italic">David Suárez Perera</p>
                   </div>
                 </div>
               </div>
@@ -421,7 +425,8 @@ function App() {
                 <div className="col-4">
                   <div className="time_line_program h-100">
                     <button>17:00</button>
-                    <p className="fst-italic">Yayi Martín</p>
+                    <p className="fw-bold">Trayectoria labor de la oficina de voluntariado ambiental de Tenerife</p>
+                    <p className="fst-italic">Yayi Martín Díaz</p>
                   </div>
                 </div>
                 <div className="col-4">
@@ -461,7 +466,7 @@ function App() {
                 <div className="col-4">
                   <div className="time_line_program h-100">
                     <button>18:00</button>
-                    <p className="fw-bold">Red Canaria de Alerta Temprana de ESpecies Exóticas Invasoras</p>
+                    <p className="fw-bold">Red Canaria de Alerta Temprana de Especies Exóticas Invasoras</p>
                     <p className="fst-italic">Ramón Gallo Barneto </p>
                   </div>
                 </div>
@@ -488,13 +493,13 @@ function App() {
                 <div className="col-4">
                   <div className="time_line_program h-100">
                     <button>19:15</button>
-                    <p className="fw-bold">Cierre clausura</p>
+                    <p className="fw-bold">Cierre sesión</p>
                   </div>
                 </div>
                 <div className="col-4">
                   <div className="time_line_program">
                     <button>19:15</button>
-                    <p className="fw-bold">Cierre clausura</p>
+                    <p className="fw-bold">Cierre sesión</p>
                   </div>
                 </div>
               </div>
