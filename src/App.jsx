@@ -9,12 +9,17 @@ import medioambienteURL from "./assets/medioambiente.jpg";
 import SofiaURL from "./assets/SofíaRodríguezNúñez.jpg";
 import MarcoDiazURL from "./assets/MarcoDiaz.png";
 import NestorURL from "./assets/Nestor.png";
-import TenoURL from "./assets/Teno.jpg";
+import TenoURL from "./assets/Teno2.png";
 import MariaURL from "./assets/Maria.png";
 import FranciscoJavierURL from "./assets/FranciscoJavier.png";
 import EduardoURL from "./assets/Eduardo.png";
 import FranquizURL from "./assets/Franquiz.png";
 import AlexisURL from "./assets/Alexis.png";
+import ArechavaletaURL from "./assets/Arechavaleta.png";
+import MonicaBarreraURL from "./assets/MonicaBarrera.png";
+import RamonGalloURL from "./assets/RamonGallo.png";
+import SuarezURL from "./assets/Suarez.jpeg"; 
+import StephanURL from "./assets/Stephan.jpg";
 
 function App() {
   return (
@@ -515,54 +520,46 @@ function App() {
             </div>
           </div>
           <div className="row my-3 py-3">
-            <div className="col-12 col-md-3 mb-5">
+            <div id='Arechavaleta' className="col-12 col-md-3 mb-5">
               <div className="card bg-transparent border-0 text-white">
-                <div className="ponente_cama_image">
-                  <img src={SofiaURL} className="ponente_url" alt="" />
+              <div className="ponente_cama_image">
+                  <img src={ArechavaletaURL} className="ponente_url" alt="" />
                 </div>
-                <p className="fw-bold fs-4 mt-2 mb-0 p-0">Sofía Rodríguez Núñez</p>
-                  <p className="small text-white-50">Técnica del Servicio de Biodiversidad</p>
+                <p className="fw-bold fs-4 mt-2 mb-0 p-0">Manuel Arechavaleta Hernández</p>
+                <p className="small text-white-50">Técnico del Servicio de Biodiversidad, Consejería de Transición Ecológica y Energía, Gobierno de Canarias</p>
+              </div> 
+            </div>
+            <div id='Avila' className="col-12 col-md-3 mb-5">
+              <div className="card bg-transparent border-0 text-white">
+              <div className="ponente_cama_image">
+                  <img src={NestorURL} className="ponente_url" alt="" />
+                </div>
+                <p className="fw-bold fs-4 mt-2 mb-0 p-0">Néstor Santiago Ávila</p>
+                <p className="small text-white-50">Emprendedor 
+                Fibras Naturales Canarias</p>
               </div>  
             </div>
-            <div className="col-12 col-md-3 mb-5">
+            <div id='Barrera' className="col-12 col-md-3 mb-5">
+              <div className="card bg-transparent border-0 text-white">
+              <div className="ponente_cama_image">
+                  <img src={MonicaBarreraURL} className="ponente_url" alt="" />
+                </div>
+                <p className="fw-bold fs-4 mt-2 mb-0 p-0">Mónica Barrera Barrios</p>
+                <p className="small text-white-50">Técnica de Educación Ambiental del Servicio de Medio Ambiente del Cabildo de Fuerteventura</p>
+              </div>
+            </div>
+            <div id='Diaz' className="col-12 col-md-3 mb-5">
               <div className="card bg-transparent border-0 text-white">
               <div className="card bg-transparent border-0 text-white">
                 <div className="ponente_cama_image">
                   <img src={MarcoDiazURL} className="ponente_url" alt="" />
                 </div>
                 <p className="fw-bold fs-4 mt-2 mb-0 p-0">Marco Díaz-Bertrana Sánchez</p>
-                  <p className="small text-white-50">Técnico asesor y validador de Red de Alerta</p>
+                <p className="small text-white-50">Técnico de Medio Ambiente</p>
               </div> 
               </div>  
             </div>
-            <div className="col-12 col-md-3 mb-5">
-              <div className="card bg-transparent border-0 text-white">
-              <div className="ponente_cama_image">
-                  <img src={NestorURL} className="ponente_url" alt="" />
-                </div>
-                <p className="fw-bold fs-4 mt-2 mb-0 p-0">Néstor Santiago Ávila</p>
-                <p className="small text-white-50">Ingeniero Industrial, emprendedor</p>
-              </div>  
-            </div>
-            <div className="col-12 col-md-3 mb-5">
-              <div className="card bg-transparent border-0 text-white">
-              <div className="ponente_cama_image">
-                  <img src={TenoURL} className="ponente_url" alt="" />
-                </div>
-                <p className="fw-bold fs-4 mt-2 mb-0 p-0">Teno Osorio Castañeda</p>
-                <p className="small text-white-50">Ingeniero Técnico Agrícola</p>
-              </div>  
-            </div>
-            <div className="col-12 col-md-3 mb-5">
-              <div className="card bg-transparent border-0 text-white">
-              <div className="ponente_cama_image">
-                  <img src={MariaURL} className="ponente_url" alt="" />
-                </div>
-                <p className="fw-bold fs-4 mt-2 mb-0 p-0">Maria Esther Martín González</p>
-                <p className="small text-white-50">Doctora en Biología por la Universidad de La Laguna</p>
-              </div>  
-            </div>
-            <div className="col-12 col-md-3 mb-5">
+            <div id='DiazPena' className="col-12 col-md-3 mb-5">
               <div className="card bg-transparent border-0 text-white">
               <div className="ponente_cama_image">
                   <img src={FranciscoJavierURL} className="ponente_url" alt="" />
@@ -571,7 +568,52 @@ function App() {
                 <p className="small text-white-50">Doctor en Ciencias Biológicas y Profesor de Edafología y Química Agrícola en la Universidad de La Laguna</p>
               </div>  
             </div>
-            <div className="col-12 col-md-3 mb-5">
+            <div id='Franquiz' className="col-12 col-md-3 mb-5">
+              <div className="card bg-transparent border-0 text-white">
+              <div className="ponente_cama_image">
+                  <img src={FranquizURL} className="ponente_url" alt="" />
+                </div>
+                <p className="fw-bold fs-4 mt-2 mb-0 p-0">Eduardo Franquiz Alemán</p>
+                <p className="small text-white-50">Técnico de Medio Ambiente, agricultura y ecosistemas verdes urbanos</p>
+              </div>  
+            </div>
+            <div id='Gallo' className="col-12 col-md-3 mb-5">
+              <div className="card bg-transparent border-0 text-white">
+              <div className="ponente_cama_image">
+                  <img src={RamonGalloURL} className="ponente_url" alt="" />
+                </div>
+                <p className="fw-bold fs-4 mt-2 mb-0 p-0">Ramón Gallo Barneto</p>
+                <p className="small text-white-50">Coordinador de RedEXOS en Gesplan</p>
+              </div>
+            </div>
+            <div id='Yayi' className="col-12 col-md-3 mb-5">
+              <div className="card bg-transparent border-0 text-white">
+              <div className="ponente_cama_image">
+                  {/* <img src={} className="ponente_url" alt="" /> */}
+                </div>
+                <p className="fw-bold fs-4 mt-2 mb-0 p-0">Yayi Martín Diaz</p>
+                <p className="small text-white-50">Biologa de la ULL. Coordinadora de la Oficina de Participación y el Voluntariado Ambiental del Área del Medio Natural, Sostenibilidad, Seguridad y Emergencias del Cabildo de Tenerife</p>
+              </div>  
+            </div>
+            <div id='Martin' className="col-12 col-md-3 mb-5">
+              <div className="card bg-transparent border-0 text-white">
+              <div className="ponente_cama_image">
+                  <img src={MariaURL} className="ponente_url" alt="" />
+                </div>
+                <p className="fw-bold fs-4 mt-2 mb-0 p-0">Esther Martín González</p>
+                <p className="small text-white-50">Doctora en Biología por la Universidad de La Laguna</p>
+              </div>  
+            </div>
+            <div id='Osorio' className="col-12 col-md-3 mb-5">
+              <div className="card bg-transparent border-0 text-white">
+              <div className="ponente_cama_image">
+                  <img src={TenoURL} className="ponente_url" alt="" />
+              </div>
+                <p className="fw-bold fs-4 mt-2 mb-0 p-0">Teno Osorio Castañeda</p>
+                <p className="small text-white-50">Profesor y Jefe del departamento de Agrarias del IES Teguise</p>
+              </div>  
+            </div>
+            <div id='Pereira' className="col-12 col-md-3 mb-5">
               <div className="card bg-transparent border-0 text-white">
               <div className="ponente_cama_image">
                   <img src={EduardoURL} className="ponente_url" alt="" />
@@ -580,22 +622,40 @@ function App() {
                 <p className="small text-white-50">Ingeniero Aeronáutico de la Universidad Politécnica de Madrid</p>
               </div>  
             </div>
-            <div className="col-12 col-md-3 mb-5">
-              <div className="card bg-transparent border-0 text-white">
-              <div className="ponente_cama_image">
-                  <img src={FranquizURL} className="ponente_url" alt="" />
-                </div>
-                <p className="fw-bold fs-4 mt-2 mb-0 p-0">Eduardo Franquiz Alemán</p>
-                <p className="small text-white-50">Consultor medioambiental. Técnico en medioambiente, agricultura y Ecosistemas verdes urbanos.</p>
-              </div>  
-            </div>
-            <div className="col-12 col-md-3 mb-5">
+            <div id='Riviera' className="col-12 col-md-3 mb-5">
               <div className="card bg-transparent border-0 text-white">
               <div className="ponente_cama_image">
                   <img src={AlexisURL} className="ponente_url" alt="" />
                 </div>
-                <p className="fw-bold fs-4 mt-2 mb-0 p-0">Juan Alexis Rivera Medina</p>
-                <p className="small text-white-50">Licenciado en Biología. Máster en Espacios Naturales Protegidos</p>
+                <p className="fw-bold fs-4 mt-2 mb-0 p-0">Alexis Rivera Medina</p>
+                <p className="small text-white-50">Conservación del Parque Natural del Archipiélago Chinijo para WWF en Canarias</p>
+              </div>  
+            </div>
+            <div id='Rodri' className="col-12 col-md-3 mb-5">
+              <div className="card bg-transparent border-0 text-white">
+                <div className="ponente_cama_image">
+                  <img src={SofiaURL} className="ponente_url" alt="" />
+                </div>
+                <p className="fw-bold fs-4 mt-2 mb-0 p-0">Sofía Rodríguez Núñez</p>
+                <p className="small text-white-50">Técnica del Servicio de Biodiversidad del Gobierno de Canarias</p>
+              </div>  
+            </div>
+            <div id='David' className="col-12 col-md-3 mb-5">
+              <div className="card bg-transparent border-0 text-white">
+                <div className="ponente_cama_image">
+                  <img src={SuarezURL} className="ponente_url" alt="" />
+                </div>
+                <p className="fw-bold fs-4 mt-2 mb-0 p-0">David Suárez Perera</p>
+                <p className="small text-white-50">Consultor Senior en Ingeniería en Datos Geográficos elittoral S.L.N.E</p>
+              </div>  
+            </div>
+            <div id='Stephen' className="col-12 col-md-3 mb-5">
+              <div className="card bg-transparent border-0 text-white">
+                <div className="ponente_cama_image">
+                  <img src={StephanURL} className="ponente_url" alt="" />
+                </div>
+                <p className="fw-bold fs-4 mt-2 mb-0 p-0">Stephan Scholz</p>
+                <p className="small text-white-50">Director Jardín Botánico en Oasis Park Fuerteventura</p>
               </div>  
             </div>
           </div>
