@@ -92,8 +92,8 @@ function App() {
             </div>
             <div className="row justify-content-center">
               <div className="col-12 col-md-8 my-3 text-center">
-                <p>¡Bienvenidos a CAMA (Conferencia Atlántica del Medio Ambiente) 2023, el evento medioambiental organizado por el Departamento de Medio Ambiente por Consejería de Medio Ambiente y Caza del Cabildo de Fuerteventura para promover la conciencia y la acción en pro del medio ambiente y ofrecer una plataforma única para la discusión, el aprendizaje y la colaboración en este ámbito.</p>
-                <p>Durante tres días, CAMA 2023 reunirá a expertos de temas medioambientales: desde la conservación de la biodiversidad hasta la gestión de residuos, desde el cambio climático hasta la educación ambiental, nuestros ponentes ofrecerán conocimientos valiosos y perspectivas enriquecedoras sobre los desafíos que enfrentamos.</p>
+                <p>¡Bienvenidos a CAMA (Conferencia Atlántica del Medio Ambiente) 2023, el evento medioambiental organizado por la Consejería de Medio Ambiente y Caza del Cabildo de Fuerteventura para promover la conciencia y la acción en pro del medio ambiente y ofrecer una plataforma única para la discusión, el aprendizaje y la colaboración en este ámbito.</p>
+                <p>Durante tres días, CAMA 2023 reunirá a expertos de temas medioambientales: desde la conservación de la biodiversidad hasta la gestión de residuos, desde el cambio climático hasta la educación ambiental, los ponentes ofrecerán conocimientos valiosos y perspectivas enriquecedoras sobre los desafíos que enfrentamos.</p>
                 <p>CAMA 2023 se llevará a cabo en el Parque Tecnológico de Fuerteventura. El acceso al evento es mediante previa inscripción. Además, para aquellos que no puedan asistir físicamente, ofrecemos la posibilidad de visualizar las charlas en línea a través de nuestra página web o YouTube.</p>
               </div>
             </div>
@@ -244,8 +244,9 @@ function App() {
             <div id='4_nov_programa_mobile' className="col-12 col-md-4 time_line_col">
               <p className="fw-bold my-5 text-center">4 de noviembre</p>
               <div className="time_line_program">
+                <button>8:00 - 13:30</button>
                 <p className="fw-bold">
-                JORNADA DE CAMPO <br /> Morro Velosa/Palmeral de Buen Paso/Palmeral Madre del Agua
+                JORNADA DE CAMPO <br /> Visita al palmeral de Madre del Agua
                 </p>
               </div>
             </div>
@@ -281,8 +282,8 @@ function App() {
                 </div>
                 <div className="col-4">
                   <div className="time_line_program h-100">
-                    <button>9:30 - 13:00</button>
-                    <p className="fw-bold">JORNADA DE CAMPO <br /> Visita al Palmeral de Madre del Agua</p>
+                    <button>8:00 - 13:30</button>
+                    <p className="fw-bold">JORNADA DE CAMPO <br /> Visita al palmeral de Madre del Agua</p>
                   </div>
                 </div>
               </div>
@@ -565,7 +566,7 @@ function App() {
                   <img src={FranciscoJavierURL} className="ponente_url" alt="" />
                 </div>
                 <p className="fw-bold fs-4 mt-2 mb-0 p-0">Francisco Javier Díaz Peña</p>
-                <p className="small text-white-50">Doctor en Ciencias Biológicas y Profesor de Edafología y Química Agrícola en la Universidad de La Laguna</p>
+                <p className="small text-white-50">Profesor de Edafología y Química Agrícola en la Universidad de La Laguna</p>
               </div>  
             </div>
             <div id='Franquiz' className="col-12 col-md-3 mb-5">
@@ -601,7 +602,7 @@ function App() {
                   <img src={MariaURL} className="ponente_url" alt="" />
                 </div>
                 <p className="fw-bold fs-4 mt-2 mb-0 p-0">Esther Martín González</p>
-                <p className="small text-white-50">Doctora en Biología por la Universidad de La Laguna</p>
+                <p className="small text-white-50">Paleontóloga en Museo de la Naturaleza y el Hombre Tenerife</p>
               </div>  
             </div>
             <div id='Osorio' className="col-12 col-md-3 mb-5">
@@ -619,7 +620,7 @@ function App() {
                   <img src={EduardoURL} className="ponente_url" alt="" />
                 </div>
                 <p className="fw-bold fs-4 mt-2 mb-0 p-0">Eduardo Pereira Gonzalez</p>
-                <p className="small text-white-50">Ingeniero Aeronáutico de la Universidad Politécnica de Madrid</p>
+                <p className="small text-white-50">Gerente del Parque Tecnológico de Fuerteventura, Ingeniero Aeronáutico de la Universidad Politécnica de Madrid</p>
               </div>  
             </div>
             <div id='Riviera' className="col-12 col-md-3 mb-5">
@@ -628,7 +629,7 @@ function App() {
                   <img src={AlexisURL} className="ponente_url" alt="" />
                 </div>
                 <p className="fw-bold fs-4 mt-2 mb-0 p-0">Alexis Rivera Medina</p>
-                <p className="small text-white-50">Conservación del Parque Natural del Archipiélago Chinijo para WWF en Canarias</p>
+                <p className="small text-white-50">Biólogo,  Conservación del Parque Natural del Archipiélago Chinijo para WWF en Canarias</p>
               </div>  
             </div>
             <div id='Rodri' className="col-12 col-md-3 mb-5">
@@ -655,7 +656,7 @@ function App() {
                   <img src={StephanURL} className="ponente_url" alt="" />
                 </div>
                 <p className="fw-bold fs-4 mt-2 mb-0 p-0">Stephan Scholz</p>
-                <p className="small text-white-50">Director Jardín Botánico en Oasis Park Fuerteventura</p>
+                <p className="small text-white-50">Biólogo doctorado en Botánica por la ULL, Director Jardín Botánico en Oasis Park Fuerteventura</p>
               </div>  
             </div>
           </div>
