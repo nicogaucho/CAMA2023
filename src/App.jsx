@@ -20,6 +20,7 @@ import MonicaBarreraURL from "./assets/MonicaBarrera.png";
 import RamonGalloURL from "./assets/RamonGallo.png";
 import SuarezURL from "./assets/Suarez.jpeg"; 
 import StephanURL from "./assets/Stephan.jpg";
+import YayiURL from "./assets/Yayi.png";
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
         <div className="container-fluid h-100">
           <div className="row h-100 align-items-center">
             <div className="col-12 col-md-3">
-              <ul className="socials">
+              <ul className="socials my-auto">
                 <li className="social_item">
                   <a href="https://www.facebook.com/profile.php?id=61552083251767&viewas=&show_switched_toast=false&show_switched_tooltip=false&is_tour_dismissed=false&is_tour_completed=false&show_podcast_settings=false&show_community_review_changes=false&should_open_composer=false&badge_type=NEW_MEMBER&show_community_rollback_toast=false&show_community_rollback=false&show_follower_visibility_disclosure=false&bypass_exit_warning=true" className="social_link">
                     <img src={facebookURL} width={'50%'} alt="instagram" />
@@ -43,7 +44,7 @@ function App() {
               </ul>
             </div>
             <div className="col-12 col-md-7">
-              <ul className="links">
+              <ul className="links my-auto">
                 <li className="nav_item">
                   <a href="#sobre_cama_2023" className="nav_link">
                     SOBRE CAMA
@@ -64,7 +65,7 @@ function App() {
                     VISUALIZA ONLINE
                   </a>
                 </li>
-                <li className="nav_item">
+                <li className="nav_item mx-3">
                   <a href="#redes_sociales_cama_2023" className="nav_link">
                     CONTACTOS
                   </a>
@@ -72,7 +73,7 @@ function App() {
               </ul>
             </div>
             <div className="col-12 col-md-2">
-              <div className="nav_btn d-block">
+              <div className="d-flex justify-content-center">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJKHJrBMbQeLx08NlP570pWr4T3an9LZI4JSpH8njFuwCPiw/viewform" className="streamingBtn text-decoration-none">
                   Inscríbete
                 </a>
@@ -590,7 +591,7 @@ function App() {
             <div id='Yayi' className="col-12 col-md-3 mb-5">
               <div className="card bg-transparent border-0 text-white">
               <div className="ponente_cama_image">
-                  {/* <img src={} className="ponente_url" alt="" /> */}
+                  <img src={YayiURL} className="ponente_url" alt="" />
                 </div>
                 <p className="fw-bold fs-4 mt-2 mb-0 p-0">Yayi Martín Diaz</p>
                 <p className="small text-white-50">Biologa de la ULL. Coordinadora de la Oficina de Participación y el Voluntariado Ambiental del Área del Medio Natural, Sostenibilidad, Seguridad y Emergencias del Cabildo de Tenerife</p>
@@ -701,7 +702,7 @@ function App() {
       </section>
       <footer id="footer_cama_2023">
         <div className="container my-5 py-5">
-          <div className="row align-items-center">
+          <div className="row mb-4 align-items-center">
             <div className="col-6 col-md-3 mb-5">
               <img src={camaLogoURL} alt="" width={'80%'} className="d-block mx-auto" />
             </div>
@@ -716,8 +717,73 @@ function App() {
             <img src={elittoralURL} alt="" width={'70%'} className="d-block mx-auto" />
             </div>
           </div>
+          <hr />
+          <div className="row mb-4">
+            <div className="col-12 text-center">
+              <span className="patrocinado">Clausula informativa proteccion de datos personales<button type="button" className="border-0 bg-transparent text-secondary" data-bs-toggle="modal" data-bs-target="#privatePolicyModal">
+                Política de privacidad
+              </button>
+              </span>
+            </div>
+          </div>
         </div>
       </footer>
+
+
+      <div className="modal fade" id="privatePolicyModal" tabIndex="-1" aria-labelledby="privatePolicyModalLabel" aria-hidden="true">
+        <div className="modal-dialog modal-dialog-scrollable">
+          <div className="modal-content privacy_policy shadow">
+            <div className="modal-body">
+              <div className="d-flex justify-content-between align-items-center">
+                <p className="modal-title fs-5 fw-bold" id="exampleModalLabel">Política de privacidad</p>
+                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div className="mt-4">
+                <p className="fw-bold">MODELO DE DECLARACION RESPONSABLE DE ENCARGADO DE TRATAMIENTO DE DATOS PERSONALES EN EL CONTRATO MENOR DE ASISTENCIA RELATIVO A LA GESTIÓN DE UNAS JORNADAS SOBRE MEDIO AMBIENTE. Dña Rosa Ana Álvarez Vázquez con DNI no36123319W en representación de la entidad Elittoral, estudios de ingeniería costera y oceanográfica, SLNE, con NIF no B35961051 como adjudicatario del contrato menor de servicio de ASISTENCIA RELATIVO A LA GESTIÓN DE UNAS JORNADAS SOBRE MEDIO AMBIENTE. DECLARA BAJO MI RESPONSABILIDAD</p>
+                <p>1.- Que cumple con la normativa de protección de datos personales, en particular, con el
+Reglamento (UE) 2016/679 relativo a la protección de las personas físicas en lo que respecta al
+tratamiento de datos personales (en adelante RGPD) y la Ley Orgánica 3/2018, de 5 de
+diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD).</p>
+<p>2.- Que, como Encargado del tratamiento, ofrezco suficiente garantías para aplicar las medidas
+técnicas y organizativas apropiadas conforme a lo establecido en el capítulo IV del RGPD y
+concordantes de la LOPDGDD.</p>
+<p>3.- A utilizar los datos personales objeto de tratamiento solo para la finalidad objeto del contrato
+adjudicado.</p>
+<p>4.- Que mantendrá absoluta confidencialidad y reserva sobre cualquier dato o información a la
+que pueda tener acceso con ocasión de la ejecución del contrato adjudicado.</p>
+<p>5.- Que devolverá los datos de carácter personal, información y demás documentos de cada uno
+de los alumnos al finalizar el contrato. Una vez entregada la documentación, se presentará un
+certificado del borrado total de los datos e información tratada. No obstante, puede conservar
+una copia, con los datos debidamente bloqueados mientras puedan derivarse responsabilidades,
+en cuyo caso, la destrucción definitiva será al final de dicho plazo. En cualquier caso, se
+comunicará por escrito el proceder y presentar en su momento el correspondiente certificado de
+destrucción definitiva.</p>
+<p>6.- Que todo el personal adscrito a la ejecución al servicio ha suscrito los correspondientes
+compromisos de confidencialidad, que subsistirá aún después de finalizar la relación contractual
+con el Cabildo y que garantiza la formación necesaria en materia de protección de datos
+personales de las personas autorizadas para tratar datos personales</p>
+<p>8.- Que el tratamiento de los datos no realizará fuera del Espacio Económico Europeo.</p>
+<p>9.- Que el/ los servidor/es que utiliza/n para la ejecución del contrato está/n ubicados en Parque
+Científico Tecnológico-Edificio Polivalente II, Primera planta-oficinas, 35017 Las Palmas de Gran
+Canaria, Las Palmas país España, siendo un servidor propio.</p>
+<p>10.- Lugar donde se prestan los servicios asociados a los servidores:
+-En caso de que los servicios asociados a los servidores se presten por personal propio
+de la empresa, el servicio se prestará en el Parque Científico Tecnológico-Edificio
+Polivalente II, Primera planta-oficinas, 35017 Las Palmas de Gran Canaria, Las Palmas
+país España (indiquen el lugar y país )</p>
+<p>11.- Que comunicará cualquier cambio que se produzca a lo largo de la vida del contrato de la
+información facilitada a que se refiere los apartados 9 y 10 anteriores.</p>
+<p>12.- En caso de que exista subcontratación y ésta implique tratamiento de datos personales,
+declaro que los subcontratistas quedarán obligados únicamente ante mi como contratista
+principal y asumo, por tanto, la total responsabilidad sobre el sometimiento de éstos a la
+normativa de protección de datos nacional y europea.</p>
+<p>13.- Que se compromete a acreditar la posesión y validez de los documentos a que se hace
+referencia en esta declaración en cualquier momento en que sea requerido para ello.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   )
 }
