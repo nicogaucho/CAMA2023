@@ -720,7 +720,7 @@ function App() {
           <hr />
           <div className="row mb-4">
             <div className="col-12 text-center">
-              <span className="patrocinado">Clausula informativa proteccion de datos personales<button type="button" className="border-0 bg-transparent text-secondary" data-bs-toggle="modal" data-bs-target="#privatePolicyModal">
+              <span className="patrocinado">Clausula informativa protección de datos personales<button type="button" className="border-0 bg-transparent text-secondary" data-bs-toggle="modal" data-bs-target="#privatePolicyModal">
                 Política de privacidad
               </button>
               </span>
@@ -739,46 +739,12 @@ function App() {
                 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div className="mt-4">
-                <p className="fw-bold">MODELO DE DECLARACION RESPONSABLE DE ENCARGADO DE TRATAMIENTO DE DATOS PERSONALES EN EL CONTRATO MENOR DE ASISTENCIA RELATIVO A LA GESTIÓN DE UNAS JORNADAS SOBRE MEDIO AMBIENTE. Dña Rosa Ana Álvarez Vázquez con DNI no36123319W en representación de la entidad Elittoral, estudios de ingeniería costera y oceanográfica, SLNE, con NIF no B35961051 como adjudicatario del contrato menor de servicio de ASISTENCIA RELATIVO A LA GESTIÓN DE UNAS JORNADAS SOBRE MEDIO AMBIENTE. DECLARA BAJO MI RESPONSABILIDAD</p>
-                <p>1.- Que cumple con la normativa de protección de datos personales, en particular, con el
-Reglamento (UE) 2016/679 relativo a la protección de las personas físicas en lo que respecta al
-tratamiento de datos personales (en adelante RGPD) y la Ley Orgánica 3/2018, de 5 de
-diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD).</p>
-<p>2.- Que, como Encargado del tratamiento, ofrezco suficiente garantías para aplicar las medidas
-técnicas y organizativas apropiadas conforme a lo establecido en el capítulo IV del RGPD y
-concordantes de la LOPDGDD.</p>
-<p>3.- A utilizar los datos personales objeto de tratamiento solo para la finalidad objeto del contrato
-adjudicado.</p>
-<p>4.- Que mantendrá absoluta confidencialidad y reserva sobre cualquier dato o información a la
-que pueda tener acceso con ocasión de la ejecución del contrato adjudicado.</p>
-<p>5.- Que devolverá los datos de carácter personal, información y demás documentos de cada uno
-de los alumnos al finalizar el contrato. Una vez entregada la documentación, se presentará un
-certificado del borrado total de los datos e información tratada. No obstante, puede conservar
-una copia, con los datos debidamente bloqueados mientras puedan derivarse responsabilidades,
-en cuyo caso, la destrucción definitiva será al final de dicho plazo. En cualquier caso, se
-comunicará por escrito el proceder y presentar en su momento el correspondiente certificado de
-destrucción definitiva.</p>
-<p>6.- Que todo el personal adscrito a la ejecución al servicio ha suscrito los correspondientes
-compromisos de confidencialidad, que subsistirá aún después de finalizar la relación contractual
-con el Cabildo y que garantiza la formación necesaria en materia de protección de datos
-personales de las personas autorizadas para tratar datos personales</p>
-<p>8.- Que el tratamiento de los datos no realizará fuera del Espacio Económico Europeo.</p>
-<p>9.- Que el/ los servidor/es que utiliza/n para la ejecución del contrato está/n ubicados en Parque
-Científico Tecnológico-Edificio Polivalente II, Primera planta-oficinas, 35017 Las Palmas de Gran
-Canaria, Las Palmas país España, siendo un servidor propio.</p>
-<p>10.- Lugar donde se prestan los servicios asociados a los servidores:
--En caso de que los servicios asociados a los servidores se presten por personal propio
-de la empresa, el servicio se prestará en el Parque Científico Tecnológico-Edificio
-Polivalente II, Primera planta-oficinas, 35017 Las Palmas de Gran Canaria, Las Palmas
-país España (indiquen el lugar y país )</p>
-<p>11.- Que comunicará cualquier cambio que se produzca a lo largo de la vida del contrato de la
-información facilitada a que se refiere los apartados 9 y 10 anteriores.</p>
-<p>12.- En caso de que exista subcontratación y ésta implique tratamiento de datos personales,
-declaro que los subcontratistas quedarán obligados únicamente ante mi como contratista
-principal y asumo, por tanto, la total responsabilidad sobre el sometimiento de éstos a la
-normativa de protección de datos nacional y europea.</p>
-<p>13.- Que se compromete a acreditar la posesión y validez de los documentos a que se hace
-referencia en esta declaración en cualquier momento en que sea requerido para ello.</p>
+                <p>
+                En cumplimiento de la normativa de protección de datos, se le informa que, los datos facilitados en el formulario de participación serán tratados por el Cabildo Insular de Fuerteventura en calidad de Responsable del Tratamiento, a través del Servicio de Medio Ambiente, con la finalidad de registro, gestión, control y seguimiento de la actividad de formación en la que se ha inscrito, así como mantenerlo informado acerca del mismo.
+La base jurídica de legitimación es el cumplimiento de una misión realizada en interés público y en su caso, el consentimiento (art. 6.1 e) y a) del RGPD). Los datos de los participantes serán comunicados al encargado de tratamiento para la prestación del servicio de organización de las actividades formativas que los tratarán con las medidas de confidencialidad.
+
+Los interesados podrán ejercitar sus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento, portabilidad así como revocar su consentimiento a través del registro de entrada del Cabildo Insular de Fuerteventura en la sede electrónica https://sede.cabildofuer.es, debiendo aportar copia del documento que acredite su identidad. En el supuesto que considere que el ejercicio de sus derechos no ha sido debidamente atendido puede presentar una reclamación ante la Agencia Española de Protección de Datos (www.agpd.es). Más información en la política de privacidad página www.cabildofuer.es. Dato de contacto de la Delegada de Protección de Datos: dpd@cabildofuer.es.
+                </p>
               </div>
             </div>
           </div>
