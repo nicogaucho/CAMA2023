@@ -670,10 +670,7 @@ function App() {
               <h2>Visualiza CAMA 2023 Online</h2>
             </div>
             <div className="col-12 my-3">
-              <div style={{padding:'56.25% 0 0 0', position:'relative'}}>
-                <iframe src="https://player.restream.io/?token=98db2ed265454dda9c1eb3553e813d44" allow="autoplay" allowfullscreen style={{position:'absolute', top:'0', left:'0',width:'100%', height:'100%'}}>
-                </iframe>
-              </div>
+              <ReactPlayer url="https://www.youtube.com/watch?v=VIQhoW1Gq3w" className="d-block mx-auto img-fluid sobrecama_img" controls />
             </div>
           </div>
         </article>
