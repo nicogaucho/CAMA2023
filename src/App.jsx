@@ -713,7 +713,7 @@ function App() {
             <img src={medioambienteURL} alt="" width={'50%'} className="d-block mx-auto" />
             </div>
             <div className="col-6 col-md-3 mb-5">
-            <p className="patrocinado">@ 2023 Patrocinado por: </p>
+            <p className="patrocinado">@2023 En colaboración con:</p>
             <img src={elittoralURL} alt="" width={'70%'} className="d-block mx-auto" />
             </div>
           </div>
@@ -728,8 +728,6 @@ function App() {
           </div>
         </div>
       </footer>
-
-
       <div className="modal fade" id="privatePolicyModal" tabIndex="-1" aria-labelledby="privatePolicyModalLabel" aria-hidden="true">
         <div className="modal-dialog modal-dialog-scrollable">
           <div className="modal-content privacy_policy shadow">
