@@ -670,7 +670,7 @@ function App() {
               <h2>Visualiza CAMA 2023 Online</h2>
             </div>
             <div className="col-12 my-3">
-              <ReactPlayer url="https://www.youtube.com/watch?v=tyX_5SJcGt0" className="d-block mx-auto img-fluid sobrecama_img" controls />
+              <ReactPlayer url="https://www.youtube.com/@CAMA2023/live" className="d-block mx-auto img-fluid sobrecama_img" controls />
             </div>
           </div>
         </article>
